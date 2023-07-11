@@ -1,0 +1,17 @@
+{
+    "name": "coda/vape",
+    "description": "Code Test for Totally Wicked",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Vape\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Knopp",
+            "email": "coda@knoppys.co.uk"
+        }
+    ],
+    "require": {}
+}

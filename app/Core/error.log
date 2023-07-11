@@ -1,0 +1,7 @@
+[11-Jul-2023 10:14:51 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Vape\Controllers\Characters::page(): Argument #1 ($page) must be of type int, string given in C:\xampp\htdocs\vape\app\Controllers\Characters.php:33
+Stack trace:
+#0 [internal function]: Vape\Controllers\Characters->page('?page=2&name=Ri...')
+#1 C:\xampp\htdocs\vape\app\Core\Router.php(36): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\vape\index.php(23): Vape\Core\Router->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\vape\app\Controllers\Characters.php on line 33
